@@ -28,7 +28,7 @@ public class StaffController {
 	private StaffService staffService;
 	
 	@RequestMapping("get")
-	//作用是反悔的staff对象转化为json
+	//作用是反悔的staff对象转化为json------修改
 	@ResponseBody
 	public Staff getStaff(Integer id){
 		return staffService.getStaff(id);
